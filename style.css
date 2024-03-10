@@ -11,8 +11,20 @@ html,body{
     align-items: center;
 }
 
+.all-width{
+    max-width: 100%;
+    margin: auto;
+}
+
 #cen{
     height: 200px;
     width: 400px;
     border: 2px solid black;   
+}
+
+@media (max-width: 500px){
+    #cen{
+        height: 150px;
+        width: 300px;
+    }
 }
