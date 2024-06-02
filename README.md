@@ -5,9 +5,9 @@
 <h3 align="left" font weight="bold">Explanation:- </h3> The code uses the addEventListener method to listen for mousemove and mouseleave events on the rectangle element (#cen). When the mouse moves over the rectangle, the code calculates the horizontal position of the mouse cursor relative to the left edge of the rectangle (insiderecval). Based on this position, it determines whether the cursor is on the left or right side of the rectangle. If the cursor is on the left side, the code maps the cursor position to a red color value (redcol) and if the cursor is on the right side, it maps the position to a blue color value (bluecol). The gsap.to() method is then used to animate the background color of the rectangle to the calculated rgb color value. When the mouse leaves the rectangle, the background color is changed again back to white.
 <h3 align="left" font weight="bold">Dependencies GSAP:- </h3> A JavaScript animation library used for smooth and performant animations.
 
-<a align="left" href="https://mohd-arish.github.io/Sliding-cursor-Effect/">Check out the project demo here</a>
 <p align="left">
 </p>
+<h3 align="left" font weight="bold">Check out the project demo here:- </h3<a href="https://mohd-arish.github.io/Sliding-cursor-Effect/">https://mohd-arish.github.io/Sliding-cursor-Effect/</a>
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> </p>
