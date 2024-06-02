@@ -1,4 +1,4 @@
-<h2 align="left" font weight="bold">Interactive Rectangle Color change:- It is an interactive rectangle that changes color based on the position of the mouse cursor within the rectangle.</h2> 
+<h2 align="left" font weight="bold"> sliding cursor effect (Interactive Rectangle color change):-</h2>  It is an interactive rectangle that changes color based on the position of the mouse cursor within the rectangle.
 <h3 align="left" font weight="bold">Features:- </h3> The rectangle changes its background color dynamically as the mouse moves over it. The color transitions smoothly between red and blue based on the horizontal position of the mouse cursor within the rectangle.
 <h3 align="left" font weight="bold">Smooth Animation:- </h3> The color transition is achieved using the GreenSock Animation Platform (GSAP), providing smooth and visually appealing animations. 
 <h3 align="left" font weight="bold">Usage:- </h3> Include the GSAP library in index.html file Run the code in browser and jusy move your mouse cursor over the rectangle to see the color change effect. 
