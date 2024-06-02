@@ -5,6 +5,7 @@
 <h3 align="left" font weight="bold">Explanation:- </h3> The code uses the addEventListener method to listen for mousemove and mouseleave events on the rectangle element (#cen). When the mouse moves over the rectangle, the code calculates the horizontal position of the mouse cursor relative to the left edge of the rectangle (insiderecval). Based on this position, it determines whether the cursor is on the left or right side of the rectangle. If the cursor is on the left side, the code maps the cursor position to a red color value (redcol) and if the cursor is on the right side, it maps the position to a blue color value (bluecol). The gsap.to() method is then used to animate the background color of the rectangle to the calculated rgb color value. When the mouse leaves the rectangle, the background color is changed again back to white.
 <h3 align="left" font weight="bold">Dependencies GSAP:- </h3> A JavaScript animation library used for smooth and performant animations.
 
+<a align="left" href="https://mohd-arish.github.io/Sliding-cursor-Effect/">Check out the project demo here</a>
 <p align="left">
 </p>
 
