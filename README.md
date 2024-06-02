@@ -1,24 +1,12 @@
-Interactive Rectangle Color Change
-It is an interactive rectangle that changes color based on the position of the mouse cursor within the rectangle.
+<h2 align="left" font weight="bold">Interactive Rectangle Color Change It is an interactive rectangle that changes color based on the position of the mouse cursor within the rectangle.</h2> 
+<h3 align="left" font weight="bold">Features:- </h3> The rectangle changes its background color dynamically as the mouse moves over it. The color transitions smoothly between red and blue based on the horizontal position of the mouse cursor within the rectangle.
+<h3 align="left" font weight="bold">Smooth Animation:- </h3> The color transition is achieved using the GreenSock Animation Platform (GSAP), providing smooth and visually appealing animations. 
+<h3 align="left" font weight="bold">Usage:- </h3> Include the GSAP library in index.html file Run the code in browser and jusy move your mouse cursor over the rectangle to see the color change effect. 
+<h3 align="left" font weight="bold">Explanation:- </h3> The code uses the addEventListener method to listen for mousemove and mouseleave events on the rectangle element (#cen). When the mouse moves over the rectangle, the code calculates the horizontal position of the mouse cursor relative to the left edge of the rectangle (insiderecval). Based on this position, it determines whether the cursor is on the left or right side of the rectangle. If the cursor is on the left side, the code maps the cursor position to a red color value (redcol) and if the cursor is on the right side, it maps the position to a blue color value (bluecol). The gsap.to() method is then used to animate the background color of the rectangle to the calculated rgb color value. When the mouse leaves the rectangle, the background color is changed again back to white.
+<h3 align="left" font weight="bold">Dependencies GSAP:- </h3> A JavaScript animation library used for smooth and performant animations.
 
-Features
-The rectangle changes its background color dynamically as the mouse moves over it. The color transitions smoothly between red and blue based on the horizontal position of the mouse cursor within the rectangle.
-Smooth Animation: The color transition is achieved using the GreenSock Animation Platform (GSAP), providing smooth and visually appealing animations.
+<p align="left">
+</p>
 
-Usage
-Include the GSAP library in index.html file
-Run the code in browser and jusy move your mouse cursor over the rectangle to see the color change effect.
-
-Explanation
-The code uses the addEventListener method to listen for mousemove and mouseleave events on the rectangle element (#cen).
-
-When the mouse moves over the rectangle, the code calculates the horizontal position of the mouse cursor relative to the left edge of the rectangle (insiderecval). Based on this position, it determines whether the cursor is on the left or right side of the rectangle.
-
-If the cursor is on the left side, the code maps the cursor position to a red color value (redcol) and if the cursor is on the right side, it maps the position to a blue color value (bluecol).
-
-The gsap.to() method is then used to animate the background color of the rectangle to the calculated rgb color value.
-
-When the mouse leaves the rectangle, the background color is changed again back to white.
-
-Dependencies
-GSAP: A JavaScript animation library used for smooth and performant animations.
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> </p>
